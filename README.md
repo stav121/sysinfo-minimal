@@ -10,9 +10,9 @@ This program is released under MIT
 
 <ul>
 <h2> Screenshots </h2>
-<img src="https://github.com/unix121/sysinfo-minimal/blob/master/screenshots/sysinfo-minimal-1.png?raw=true">
+<img src="https://github.com/unix121/sysinfo-minimal/blob/master/screenshots/sysinfo-minimal_1.png?raw=true">
 
-<img src="https://github.com/unix121/sysinfo-minimal/blob/master/screenshots/sysinfo-minimal-2.png?raw=true">
+<img src="https://github.com/unix121/sysinfo-minimal/blob/master/screenshots/sysinfo-minimal_2.png?raw=true">
 </ul>
 
 <ul>
