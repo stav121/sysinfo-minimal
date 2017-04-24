@@ -1,5 +1,12 @@
+<ul>
 <h1>sysinfo-minimal</h1>
 Simple bash script to display system information in a minimalistic way.
+</ul>
+
+<ul>
+<h3>License</h3>
+This program is released under MIT
+</ul>
 
 <ul>
 <h2> Screenshots </h2>
