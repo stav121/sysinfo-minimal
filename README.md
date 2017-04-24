@@ -23,6 +23,6 @@ This program is released under MIT
 </ul>
 
 <ul>
- <h3>Author:</h3> Unix121
+ <h3>Author:</h3> <a href="https://github.com/unix121">Unix121</a>
  <h3>E-mail:</h3> unix121@protonmail.com
 </ul>
