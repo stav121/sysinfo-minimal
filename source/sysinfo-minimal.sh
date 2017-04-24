@@ -28,7 +28,7 @@ term=$TERM
 
 echo
 echo $color1 ████████████████ ${bold}User:${normal}  $user 
-echo $color2 ████████████████ ${bold}Distro:${normal} $linux
+echo $color2 ████████████████ ${bold}OS:${normal} $linux
 echo $color3 ████████████████ ${bold}Kernel:${normal} $kernel
 echo $color4 ████████████████ ${bold}Shell:${normal} $BASH_VERSION
 echo $color5 ████████████████ ${bold}WM:${normal} $wm
