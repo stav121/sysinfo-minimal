@@ -14,3 +14,8 @@ Simple bash script to display system information in a minimalistic way.
 <li> cd sysinfo-minimal/source/</li>
 <li> ./sysinfo-minimal.sh</li>
 </ul>
+
+<ul>
+ <h3>Author:</h3> Unix121
+ <h3>E-mail:</h3> unix121@protonmail.com
+</ul>
