@@ -1,4 +1,4 @@
-#/usr/bin/env bash
+#!/usr/bin/env bash
 
 # Author : Unix121
 # GitHub : github.com/unix121
