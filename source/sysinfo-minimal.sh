@@ -19,14 +19,13 @@ printf -v color6 %b "\e[36m"
 bold=$(tput bold)
 normal=$(tput sgr0)
 
-checkshell=$(cat /etc/passwd | grep $USER | cut -c 45-)
-case "$checkshell" in
+case "$SHELL" in
   "/usr/bin/zsh") USING=$(zsh --version | cut -c -9) ;;
   "/usr/bin/bash") USING=$(bash --version | grep "GNU bash, version" | awk {'print $4'}) ;;
 esac
 
 user=$(whoami)
-linux=$(cat /etc/os-release | grep "PRETTY_NAME=" | cut -c 14- | cut -c -10)
+linux=$(lsb_release -is)
 kernel=$(uname -r)
 bash=$USING
 wm=$GDMSESSION
