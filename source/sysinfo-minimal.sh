@@ -20,8 +20,8 @@ bold=$(tput bold)
 normal=$(tput sgr0)
 
 case "$SHELL" in
-  "/usr/bin/zsh") USING=$(zsh --version | cut -c -9) ;;
-  "/usr/bin/bash") USING=$(bash --version | grep "GNU bash, version" | awk {'print $4'}) ;;
+  "/usr/bin/zsh" | "/bin/zsh") USING=$(zsh --version | cut -c -9) ;;
+  "/usr/bin/bash" | "/bin/bash") USING=$(bash --version | grep "GNU bash, version" | awk {'print $4'}) ;;
 esac
 
 user=$(whoami)
