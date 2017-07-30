@@ -24,18 +24,11 @@ case "$SHELL" in
   "/usr/bin/bash" | "/bin/bash") USING=$(bash --version | grep "GNU bash, version" | awk {'print $4'}) ;;
 esac
 
-user=$(whoami)
-linux=$(lsb_release -is)
-kernel=$(uname -r)
-bash=$USING
-wm=$GDMSESSION
-term=$TERM
-
 echo
-echo $color1 ████████████████ ${bold}User:${normal}  $user
-echo $color2 ████████████████ ${bold}OS:${normal} $linux
-echo $color3 ████████████████ ${bold}Kernel:${normal} $kernel
+echo $color1 ████████████████ ${bold}User:${normal} $(whoami)
+echo $color2 ████████████████ ${bold}OS:${normal} $(head -n1 /etc/issue | cut -f 1 -d ' ')
+echo $color3 ████████████████ ${bold}Kernel:${normal} $(uname -r)
 echo $color4 ████████████████ ${bold}Shell:${normal} $USING
-echo $color5 ████████████████ ${bold}WM:${normal} $wm
-echo $color6 ████████████████ ${bold}Terminal:${normal} $term
+echo $color5 ████████████████ ${bold}WM:${normal} $GDMSESSION
+echo $color6 ████████████████ ${bold}Terminal:${normal} $TERM
 echo
