@@ -26,3 +26,7 @@ This program is released under MIT
  <h3>Author:</h3> <a href="https://github.com/unix121">Unix121</a>
  <h3>E-mail:</h3> unix121@protonmail.com
 </ul>
+
+
+<h3>Support this project</h3>
+Patreon: https://www.patreon.com/unix121
